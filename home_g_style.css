@@ -1,0 +1,160 @@
+
+header {
+    border-bottom: 0.2em solid white;
+    background: #D1EDFA;
+    font: #4C4C4C;
+    padding: 0.2em;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Urbanist", sans-serif;
+    
+
+    a {
+        font-family: "Urbanist", sans-serif;
+        color: #4C4C4C;
+        padding: 0 2em;
+    }
+
+    .home {
+        font-family: "Urbanist", sans-serif;
+        color: #4C4C4C;
+        padding: 0 2em;
+        font-weight: bold;
+        margin-left: auto;
+    }
+
+    .menu {
+        margin-right: auto;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f4ff;
+    color: #333;
+    margin: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.home-main-left {
+    max-width: 600px;
+}
+
+.home-name-card {
+    background-color: rgba(255, 255, 255, 25);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* filter: blur(20px); */
+}
+
+.home-name-card h1 {
+    font-size: 2.5em;
+    color: #000;
+    margin: 0;
+    font-family: "Outfit", sans-serif
+}
+
+.home-explanation {
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #666;
+    font-family: "Outfit", sans-serif
+}
+
+.home-photo {
+    margin-left: 50px;
+}
+
+.home-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all .2s ease-out
+}
+
+.home-photo img:hover {
+    transform: scale(1.1);
+}
+
+.section-icon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* //새로운 검토하기 */
+
+
+
+   
+
+    .home-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .home-main-left {
+        max-width: 600px;
+    }
+
+    .home-name-card {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .home-name-card h1 {
+        font-size: 2.5em;
+        color: #000;
+        margin: 0;
+    }
+
+    .home-explanation {
+        max-width: 600px;
+        font-size: 1.1em;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    .home-photo {
+        margin-left: 50px;
+    }
+
+    .home-photo img {
+        width: 300px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-icon {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

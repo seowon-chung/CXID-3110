@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <title>Seowon Chung Design Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D1EDFA;
+            color: #333;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #D1EDFA;
+            border-bottom: 2px solid white;
+            font-size: 1.2em;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #4C4C4C;
+            padding: 0 2em;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .home {
+            margin-right: auto;
+            font-weight: bold;
+        }
+
+        .content-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro h1 {
+            font-size: 2.5em;
+            color: #000;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card h2 {
+            font-size: 1.5em;
+            color: #4C4C4C;
+            margin: 0 0 10px 0;
+        }
+
+        .project-card p {
+            font-size: 1em;
+            line-height: 1.4;
+            color: #666;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4C4C4C;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="home" href='home.html'>SEOWON CHUNG</a>
+        <nav>
+            <a href='home.html'>Home</a>
+            <a href='project.html'>Projects</a>
+            <a href='about.html'>About</a>
+            <a href='contact.html'>Contact</a>
+        </nav>
+    </header>
+    <div class="content-wrapper">
+        <div class="intro">
+            <h1>Hi, I'm Seowon Chung, a UX/UI Designer in DC</h1>
+            <p>Welcome to my project portfolio. Here you'll find an overview of my design work, showcasing my skills in UX/UI design, prototyping, and visual storytelling. Each project represents my dedication to improving user experiences through thoughtful design.</p>
+        </div>
+        <div class="projects">
+            <div class="project-card">
+                <h2>Project 1: UX/UI Case Study</h2>
+                <p>A comprehensive UX/UI design case study focused on enhancing the user journey through research, testing, and iterative improvements.</p>
+                <img src="/mnt/data/project1.png" alt="UX/UI Case Study">
+            </div>
+            <div class="project-card">
+                <h2>Project 2: Responsive Web Design</h2>
+                <p>A responsive website design that adapts to various screen sizes, ensuring a consistent and accessible user experience across all devices.</p>
+                <img src="/mnt/data/project2.png" alt="Responsive Web Design">
+            </div>
+            <div class="project-card">
+                <h2>Project 3: Mobile App Prototype</h2>
+                <p>Developed an interactive mobile app prototype, emphasizing user-friendly navigation and visually engaging design elements.</p>
+                <img src="/mnt/data/project3.png" alt="Mobile App Prototype">
+            </div>
+            <div class="project-card">
+                <h2>Project 4: Digital Product Redesign</h2>
+                <p>Redesigned a digital product interface to improve usability and visual appeal, based on user feedback and usability testing.</p>
+                <img src="/mnt/data/project4.png" alt="Digital Product Redesign">
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Seowon Chung. All rights reserved.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body{
+    background: #D1EDFA;
+}
+
+header{
+    border-bottom: 0.2em solid white;
+    background: #D1EDFA;
+    font: #4C4C4C;
+    padding: 0.2em;
+    display:flex;
+    justify-content: flex-end;
+
+    a{ 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #4C4C4C;
+        padding: 0 2em;
+    
+    
+    }
+    .home {
+        margin-right: auto;
+    }
+}
+
+
+
+
+/* section{
+
+}
+
+home-main-left(
+    display: flex;
+    width: 765px;
+    padding: 380px 54px 68px 54px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 31px;
+
+)
+.h1{
+
+}
+
+.p1{
+
+} */

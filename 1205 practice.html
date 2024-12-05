@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>Seowon Chung Portfolio Practice</title>
+    <link rel='stylesheet' href='home_g_style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+     header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #D1EDFA;
+            border-bottom: 2px solid white;
+            font-size: 1.2em;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #4C4C4C;
+            padding: 0 2em;
+            font-family: "Outfit", sans-serif;
+        }
+
+        .home {
+            margin-right: auto;
+            font-weight: bold;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            padding: 10px;
+        }
+
+        .dropdown-content a {
+            color: #4C4C4C;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: "Outfit", sans-serif;
+            font-size: 0.9em;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        a.linkedin {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            color: #3d4a52; 
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        a.linkedin:hover {
+            text-decoration: underline;
+            color: #005582; 
+        }
+
+        a.linkedin img {
+            width: 1.2em;
+            height: 1.2em;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .linkedin i {
+            margin-right: 8px;
+        }
+
+        </style>
+<script>
+    function goToProjects() {
+        window.location.href = 'CXID-3110/p2.html';
+    }
+</script>
+
+</head>
+
+<body>
+    <header>
+        <a class="home" href='1205 practice.html'>SEOWON CHUNG</a>
+        <nav>
+            <a href='1205 practice.html'>Home</a>
+           <div class="dropdown">
+                <a href="#" onclick="goToProjects()">Project ▼</a>
+                <div class="dropdown-content">
+                    <a href='vinyl_album.html'>Vinyl Album Cover Generator</a>
+                    <a href='salveo_innovations.html'>Salveo Innovations</a>
+                    <a href='zero_moves.html'>Zero Moves</a>
+                    <a href='my_little_museum.html'>My Little Museum</a>
+                    <a href='aymara.html'>AYMARA</a>
+                    <a href='demi_collection.html'>Demi Collection</a>
+                    <a href='unravel_within_walls.html'>Unravel within Walls</a>
+                    <a href='product_design.html'>Product Design Prototype</a>
+                </div>
+            </div>
+            <a href='about.html'>About</a>
+            <a href='contact.html'>Contact</a>
+        </nav>
+    </header>
+    <section class="home-main">
+        <div class="home-main-left">
+            <div class="home-name-card">
+                <h1>Hi, I'm Seowon Chung, a UX / UI Designer in DC</h1>
+            </div>
+            <div class="home-explanation">
+                <p>Lorem ipsum dolor sit amet consectetur. Et eget in morbi curabitur tincidunt fames ultrices. Orci gravida maecenas congue et nisi tristique viverra. Tellus nec sollicitudin amet dignissim pulvinar amet sit augue. Arcu platea felis gravida eget morbi risus consectetur a. Dui eros mauris purus vel vestibulum pretium felis in. Suspendisse aliquam tristique ac semper enim lacus eu morbi et. Vitae erat semper habitasse pharetra interdum dictum vitae. Convallis dui eget velit nascetur id cum tellus condimentum tincidunt.</p>
+            </div>
+            <a class="linkedin" href="https://www.linkedin.com/in/seowon-chung" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn Icon"> Connect with me on LinkedIn
+            </a>
+        </div>
+        <div class="home-photo">
+            <img src="profile.jpeg" alt="Seowon Chung Photo">
+        </div>
+    </section>
+    
+    <section class="video-section" style="position: relative; margin-top: 50px;">
+        <iframe src="https://www.youtube.com/watch?v=f2OVJGqc8Vg&feature=youtu.be" title="YouTube video" width="560" height="315" frameborder="0" allowfullscreen style="position: absolute; left: 50%; transform: translateX(-50%);"></iframe>
+    </section>
+
+
+</body>
+
+
+
+</html>

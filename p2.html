@@ -8,15 +8,95 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+
+    <style>
+        header {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               padding: 20px;
+               background-color: #D1EDFA;
+               border-bottom: 2px solid white;
+               font-size: 1.2em;
+           }
+   
+           header a {
+               text-decoration: none;
+               color: #4C4C4C;
+               padding: 0 2em;
+               font-family: "Outfit", sans-serif;
+           }
+   
+           .home {
+               margin-right: auto;
+               font-weight: bold;
+           }
+
+           .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            padding: 10px;
+        }
+
+        .dropdown-content a {
+            color: #4C4C4C;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: "Outfit", sans-serif;
+            font-size: 0.9em;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+           </style>
+
 </head>
 
 <body>
     <header>
+        <a class="home" href='1205 practice.html'>SEOWON CHUNG</a>
+        <nav>
+            <a href='1205 practice.html'>Home</a>
+               <div class="dropdown">
+                    <a href="#" onclick="goToProjects()">Project ▼</a>
+                    <div class="dropdown-content">
+                        <a href='vinyl_album.html'>Vinyl Album Cover Generator</a>
+                        <a href='salveo_innovations.html'>Salveo Innovations</a>
+                        <a href='zero_moves.html'>Zero Moves</a>
+                        <a href='my_little_museum.html'>My Little Museum</a>
+                        <a href='aymara.html'>AYMARA</a>
+                        <a href='demi_collection.html'>Demi Collection</a>
+                        <a href='unravel_within_walls.html'>Unravel within Walls</a>
+                        <a href='product_design.html'>Product Design Prototype</a>
+                    </div>
+                </div>
+            <!-- <a href='p2.html'>Projects</a> -->
+            <a href='about.html'>About</a>
+            <a href='contact.html'>Contact</a>
+        </nav>
+    </header>
+    
+    <!-- <header>
         <a class="home" href='home.html'>SEOWON CHUNG</a>
             <a href='p3.html'>Home</a>
             <a href='p2.html'>Projects</a>
             <a href='about.html'>About</a>
-    </header>
+    </header> -->
     <div class="content-wrapper">
         <div class="page-title">
             <h1>PROJECT</h1>

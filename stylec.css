@@ -103,4 +103,12 @@ body {
     color: #D1EDFA;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #D1EDFA;
+    color: rgb(172, 171, 171);
+    margin-top: 40px;
+}
+
 

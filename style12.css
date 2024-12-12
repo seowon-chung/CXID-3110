@@ -160,3 +160,11 @@ a.linkedin img {
     margin-right: 6px;
     vertical-align: middle;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #D1EDFA;
+    color: rgb(150, 150, 150);
+    margin-top: 40px;
+}

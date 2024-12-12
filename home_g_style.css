@@ -40,30 +40,43 @@ body {
 
 .home-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px 5%;
+    gap: 20px;
 }
 
 .home-main-left {
+    flex: 2;
     max-width: 600px;
+    min-width: 300px;
 }
 
 .home-name-card {
-    background-color: rgba(255, 255, 255, 25);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 40px 50px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    /* aspect-ratio: 4/3; */
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* filter: blur(20px); */
+    text-align: center;
+    /* margin: 0 auto; */
 }
 
 .home-name-card h1 {
     font-size: 2.5em;
     color: #000;
+    line-height: 1.3em;
     margin: 0;
-    font-family: "Outfit", sans-serif
+    font-family: "Outfit", sans-serif;
+    text-align: center;
 }
 
 .home-explanation {
@@ -71,19 +84,24 @@ body {
     font-size: 1.1em;
     line-height: 1.5;
     color: #666;
-    font-family: "Outfit", sans-serif
+    font-family: "Outfit", sans-serif;
 }
 
 .home-photo {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    flex: 3;
+    min-width: 300px;
+    max-width: 600px;
+    /* aspect-ratio: 4/3; */
 }
 
 .home-photo img {
-    width: 1000px;
+    width: 100%;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all .2s ease-out
+    transition: all .2s ease-out;
+    object-fit: cover;
 }
 
 .home-photo img:hover {

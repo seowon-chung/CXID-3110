@@ -2,98 +2,49 @@
 
 <head>
     <title>Seowon Chung Design About</title>
-    <link rel='stylesheet' href='p2style.css'>
-    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='style12.css'>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
     <style>
-        header {
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-               padding: 20px;
-               background-color: #D1EDFA;
-               border-bottom: 2px solid white;
-               font-size: 1.2em;
-           }
-   
-           header a {
-               text-decoration: none;
-               color: #4C4C4C;
-               padding: 0 2em;
-               font-family: "Outfit", sans-serif;
-           }
-   
-           .home {
-               margin-right: auto;
-               font-weight: bold;
-           }
-
-           .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #ffffff;
-            min-width: 200px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-            padding: 10px;
-        }
-
-        .dropdown-content a {
-            color: #4C4C4C;
-            padding: 8px 16px;
-            text-decoration: none;
-            display: block;
-            font-family: "Outfit", sans-serif;
-            font-size: 0.9em;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #f1f1f1;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
         .resume-image {
             display: block;
             max-width: 95%;
             height: auto;
-            margin: 20px auto;
+            margin: 40px auto;
         }
-           </style>
-
+    </style>
+    
+    <script>
+        function goToProjects() {
+            window.location.href = 'p2.html';
+        }
+    </script>
 </head>
 
 <body>
     <header>
-        <a class="home" href='1205 practice.html'>SEOWON CHUNG</a>
+        <a class="home" href="index12.html">SEOWON CHUNG</a>
         <nav>
-            <a href='1205 practice.html'>Home</a>
+            <a href="index12.html">HOME</a>
             <div class="dropdown">
-                <a href="#" onclick="goToProjects()">Project ▼</a>
+                <a href="#" onclick="goToProjects()">PROJECT ▼</a>
                 <div class="dropdown-content">
-                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/vinyl-album-cover-generator'>Vinyl Album Cover Generator</a>
-                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/salveo-innovations'>Salveo Innovations</a>
-                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/zero-moves'>Zero Moves</a>
-                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/my-little-museum'>My Little Museum</a>
-                    <a href='aymara.html'>AYMARA</a>
-                    <a href='demi_collection.html'>Demi Collection</a>
-                    <a href='unravel_within_walls.html'>Unravel within Walls</a>
-                    <a href='product_design.html'>Product Design Prototype</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/vinyl-album-cover-generator' target="_blank" rel="noopener noreferrer">Vinyl Album Cover Generator</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/salveo-innovations' target="_blank" rel="noopener noreferrer">Salveo Innovations</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/zero-moves' target="_blank" rel="noopener noreferrer">Zero Moves</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/my-little-museum' target="_blank" rel="noopener noreferrer">My Little Museum</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/aymara' target="_blank" rel="noopener noreferrer">AYMARA</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/demi-collection' target="_blank" rel="noopener noreferrer">Demi Collection</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/unravel-within-walls' target="_blank" rel="noopener noreferrer">Unravel within Walls</a>
+                    <a href='https://sites.google.com/gwmail.gwu.edu/seowonchung-design/project/product-design-prototype' target="_blank" rel="noopener noreferrer">Product Design Prototype</a>
                 </div>
             </div>
-            <a href='about.html'>About</a>
-            <a href='contact.html'>Contact</a>
+            <a href="1205 about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
         </nav>
     </header>
     <img src="design-resume.png" alt="Seowon Chung Resume" class="resume-image">

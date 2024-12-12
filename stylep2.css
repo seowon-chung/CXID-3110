@@ -1,8 +1,7 @@
-body {
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    background-color: #D1EDFA;
-    color: #333;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -17,7 +16,6 @@ header {
     font-family: "Urbanist", sans-serif;
 }
 
-/* 링크 스타일 */
 header a {
     text-decoration: none;
     color: #4C4C4C;
@@ -25,11 +23,9 @@ header a {
     font-family: "Outfit", sans-serif;
 }
 
-
 header a:hover {
     color: #a8a8a8;
 }
-
 
 .home {
     font-weight: bold;
@@ -59,7 +55,7 @@ header a:hover {
     text-decoration: none;
     display: block;
     font-family: "Outfit", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .dropdown-content a:hover {
@@ -67,37 +63,18 @@ header a:hover {
     color: #868686;
 }
 
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 
-
-/* header {
-    border-bottom: 0.2em solid white;
-    background: #D1EDFA;
-    font: #4C4C4C;
-    padding: 0.2em;
-    display: flex;
-    justify-content: flex-end;
-
-    a{ 
-        font-family: "Outfit", sans-serif;
-        color: #4C4C4C;
-        padding: 0 2em;
-    
-    
-    }
-    .home {
-        margin-right: auto;
-    }
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #D1EDFA;
+    color: #333;
+    margin: 0;
+    padding: 5px;
 }
-
-.home {
-    margin-right: auto;
-    font-weight: bold;
-} */
 
 .content-wrapper {
     max-width: 1000px;
@@ -105,31 +82,19 @@ header a:hover {
     padding: 40px 20px;
 }
 
-.page-title h1{
+
+.page-title h1 {
     text-align: center;
     font-size: 3.5em;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     padding: 1em 0;
-
 }
 
-.page-title h3{
-    /* font-weight: bold; */
-    font-family: "Outfit", sans-serif
+.page-title h3 {
+    font-family: "Outfit", sans-serif;
 }
 
-
-
-/* .intro {
-    text-align: center;
-    margin-bottom: 50px;
-} */
-
-/* .intro h1 {
-    font-size: 2.5em;
-    color: #000;
-} */
 
 .intro p {
     font-size: 1.1em;
@@ -139,16 +104,20 @@ header a:hover {
     margin: 0 auto;
 }
 
+
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
+    justify-items: center;
 }
+
 
 .project-card {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
@@ -160,7 +129,7 @@ header a:hover {
 .project-card h2 {
     font-size: 1.5em;
     color: #4C4C4C;
-    margin: 0 0 10px 0;
+    margin: 15px 0;
 }
 
 .project-card p {
@@ -172,9 +141,41 @@ header a:hover {
 .project-card img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0px;
     margin-top: 15px;
 }
+
+
+.project {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+}
+
 
 footer {
     text-align: center;
@@ -182,59 +183,4 @@ footer {
     background-color: #4C4C4C;
     color: white;
     margin-top: 40px;
-}        
-
-
-    /* .content-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 40px 20px;
-    } */
-
-    .projects {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        justify-items: center;
-    }
-
-    .project {
-        /* background-color: #f9f9f9;
-        border: 1px solid #ddd; */
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        transition: transform 0.3s;
-    }
-
-    .project:hover {
-        transform: scale(1.05);
-    }
-
-    .project img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        border-radius: 8px;
-    }
-
-    .project h3 {
-        font-size: 1.5em;
-        margin: 15px 0;
-        color: #333;
-    }
-
-    .project a {
-        text-decoration: none;
-        color: black;
-        font-size: 0.7em;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #f1f1f1;
-        color: #333;
-        margin-top: 40px;
-        border-top: 1px solid #ddd;
-    }
+}

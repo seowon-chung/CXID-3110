@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D1EDFA;
+    border-bottom: 2px solid white;
+    font-size: 1.2em;
+    font-family: "Urbanist", sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #4C4C4C;
+    padding: 0 2em;
+    font-family: "Outfit", sans-serif;
+}
+
+header a:hover {
+    color: #a8a8a8;
+}
+
+.home {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #4C4C4C;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.7em;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #868686;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #D1EDFA;
+    color: #333;
+    margin: 0;
+    padding: 5px
+}
+
+
+.home-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 32px auto;
+    padding: 50px 2%;
+    gap: 40px;
+}
+
+.home-main-left {
+    flex: 2;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.home-name-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-name-card h1 {
+    font-size: 2.5em;
+    color: #000;
+    line-height: 1.3em;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.home-explanation {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #666;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.home-photo {
+    flex: 3;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.home-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: all 0.2s ease-out;
+}
+
+.home-photo img:hover {
+    transform: scale(1.05);
+}
+
+
+a.linkedin {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #3d4a52;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+a.linkedin:hover {
+    text-decoration: underline;
+    color: #4484a7;
+}
+
+a.linkedin img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}

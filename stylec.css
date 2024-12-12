@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D1EDFA;
+    border-bottom: 2px solid white;
+    font-size: 1.2em;
+    font-family: "Urbanist", sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #4C4C4C;
+    padding: 0 2em;
+    font-family: "Outfit", sans-serif;
+}
+
+header a:hover {
+    color: #a8a8a8;
+}
+
+.home {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #4C4C4C;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.7em;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #868686;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    background: linear-gradient(to bottom, #D1EDFA, #4484a7);
+    background-attachment: fixed;
+    margin: 0;
+    /* padding: 5px */
+
+    
+}
+
+.contact {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #D1EDFA;
+}
+
+

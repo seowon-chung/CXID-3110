@@ -11,14 +11,50 @@
 
     <style>
         body {
-            background-image: url('https://t3.ftcdn.net/jpg/04/56/00/16/360_F_456001627_vYt7ZFjxEQ1sshme67JAXorKRPo8gsfN.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
+            background: linear-gradient(to bottom, #D1EDFA, #4484a7);
             background-attachment: fixed;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
         }
 
-        .resume-image {
+        header {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #4484a7;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        a:hover {
+            color: #D1EDFA;
+            transition: color 0.3s;
+        }
+
+        .dropdown-content {
             display: none;
+            position: absolute;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            color: #4484a7;
+        }
+
+        .dropdown-content a:hover {
+            background: #D1EDFA;
+            color: #4484a7;
         }
     </style>
     
